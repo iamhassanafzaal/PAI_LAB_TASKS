@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Joke App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .joke-box {
+            background-color: #f0f0f0;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="joke-box">
+        <h2>Here's a Joke for You!</h2>
+        <p><strong>{{ setup }}</strong></p>
+        <p>{{ punchline }}</p>
+        <br>
+        <a href="/">Get Another Joke</a>
+    </div>
+</body>
+</html>
